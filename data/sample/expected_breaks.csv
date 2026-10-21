@@ -1,0 +1,12 @@
+key,detail,first_seen,resolved_on
+TRADE|T0003,"price, net amount",2025-10-09,2025-10-13
+CASH|USD,balance,2025-10-14,2025-10-17
+POSITION|XX0000010159,missing at custodian,2025-10-14,2025-10-17
+TRADE|T0009,"quantity, net amount",2025-11-04,2025-11-05
+CASH|EUR,balance,2025-11-05,
+CASH|USD,balance,2025-11-20,
+TRADE|T0014,no confirm,2025-11-21,2025-12-01
+CONFIRM|C79001,no trade,2025-11-26,2025-12-02
+TRADE|T0018,settlement date,2025-12-04,2025-12-05
+POSITION|XX0000010142,quantity,2025-12-15,
+TRADE|T0022,net amount,2025-12-16,

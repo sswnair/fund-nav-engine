@@ -1,0 +1,51 @@
+{
+  "name": "Sample Global Equity Fund",
+  "base_currency": "EUR",
+  "nav_decimals": 4,
+  "unit_decimals": 3,
+  "capital_settlement_days": 3,
+  "share_classes": [
+    {
+      "code": "A-EUR",
+      "currency": "EUR",
+      "management_fee": 0.015
+    },
+    {
+      "code": "I-EUR",
+      "currency": "EUR",
+      "management_fee": 0.0075,
+      "performance_fee": 0.1
+    },
+    {
+      "code": "I-USD",
+      "currency": "USD",
+      "management_fee": 0.0075,
+      "performance_fee": 0.1
+    }
+  ],
+  "expenses": [
+    {
+      "name": "Administration",
+      "annual_rate": 0.0005
+    },
+    {
+      "name": "Depositary",
+      "annual_rate": 0.0002
+    },
+    {
+      "name": "Audit",
+      "annual_amount": 24000.0
+    }
+  ],
+  "holidays": [
+    "2025-10-27",
+    "2025-12-25",
+    "2025-12-26",
+    "2026-01-01"
+  ],
+  "tolerances": {
+    "cash": 5.0,
+    "price": 0.0001,
+    "amount": 1.0
+  }
+}
